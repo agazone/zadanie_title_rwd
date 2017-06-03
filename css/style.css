@@ -1,17 +1,34 @@
 body {
-    width: 100%;
-    height: 100%;
     margin: 0 auto;
     font-family: Verdana;
-    color: white;
+}
+
+#main-header {
+    background: url(../images/man-1.jpg);
+    background-size: cover;
+    height: 100vh;
+    font-size: 1.5vw;
     position: relative;
 }
 
-header h2 {
-    top: 340px;
+#main-header .main-header-caption {
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 50px;
+    text-transform: uppercase;
 }
 
-header h1 {
-    top: 380px;
-    
+#main-header .main-header-caption h1 {
+    font-size: 2em;
 }
+
+#main-header .main-header-caption h2{
+    font-size: 1.5em;
+}
+
+#responsive-header {
+    text-align: center;
+    display: none;
+}
+
